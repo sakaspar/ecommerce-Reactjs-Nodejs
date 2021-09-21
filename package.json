@@ -13,10 +13,12 @@
     "mongoose": "^5.8.11",
     "multer": "^1.4.2",
     "multer-s3": "^2.9.0",
+    "npm": "^7.24.0",
     "react": "^17.0.2",
     "urix": "^0.1.0"
   },
   "devDependencies": {
+    "firebase": "^8.0.0",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.15.0",
     "@babel/node": "^7.8.4",

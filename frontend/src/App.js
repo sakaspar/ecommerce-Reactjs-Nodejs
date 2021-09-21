@@ -31,9 +31,12 @@ function App() {
 <BrowserRouter>
 
 <div class="container red topBotomBordersOut">
+ <div class="sitename">
   <Link to="/">MainSite</Link>
-  <a onClick={openMenu} >CATEGORY</a>
-  <div className="header-links">
+ </div>
+  <div class="cat">
+  <a onClick={openMenu} >CATEGORY</a></div>
+  <div className="logs">
             {userInfo ? (
               <Link to="/profile">Profile</Link>
             ) : (
@@ -50,13 +53,16 @@ function App() {
                 </ul>
               </div>
             )}
+             </div>
              {userInfo ? (
          <div class="cart">  
-
-          <a href="cart">Cart</a>
+         <div class="name">
+{userInfo.name}
+</div>         
+          <a  href="cart" >Cart </a>
           </div>
           ):( <Link to="/register">sing-up</Link> )}
-          </div>
+          
 </div>
 
 
