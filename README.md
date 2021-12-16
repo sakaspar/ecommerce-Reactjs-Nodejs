@@ -116,6 +116,6 @@ Admin shoud be able to uploads photos from their computer. This section is about
 
 # Summary
 
-we have made an eCommerce website like Amazon. Feel free to change this project based on your needs and add it to your portfolio.
+This eCommerce website is an open-source project. Feel free to change this project based on your needs and add it to your portfolio.
 Big Thanks to zloirock 
 git: https://github.com/zloirock 
